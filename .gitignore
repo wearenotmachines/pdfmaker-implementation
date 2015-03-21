@@ -1,0 +1,4 @@
+pdfs/
+vendor/
+*.pdf
+phinx.yml

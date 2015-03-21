@@ -1,0 +1,16 @@
+{
+	"require" : {
+		"php" : ">=5.5.0",
+		"league/flysystem": "~1.0",
+		"slim/slim": "~2.6",
+		"keyvanakbary/slugifier": "~1.0"
+	},
+	"require-dev" : {
+		"robmorgan/phinx": "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"WeAreNotMachines\\PDFMaker\\" : "vendor/wearenotmachines/src"
+		}
+	}
+}
